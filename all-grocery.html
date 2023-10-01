@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/css.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Clickncash Mall</title>
+  <style>
+      .accordion-item:first-of-type .accordion-button {
+        color: #000 !important;
+        background-color: #fff !important;
+      }
+      .accordion-button:focus {
+      z-index: 3;
+     border-color: #fff !important;;
+     outline: 0;
+      box-shadow: none !important;
+    }
+    .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    }
+    .accordion-item { 
+    border: none !important;
+    }
+    .accordion-button {
+    padding: 0 !important;
+    }
+    .accordion-button:not(.collapsed)::after {
+    background-image: black !important;
+    width: 18px !important;
+    height: 14px !important;
+    }
+    .accordion-body{
+      padding: 0 !important;
+      margin-top: 15px;
+    }
+    .accordion-body .form-check label{
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+
+<body style=" background-color: #f1f3f6;">
+  <div class="shadow-sm bg-white">
+    <nav class="navbar navbar-expand-lg justify-content-between">
+      <div class="container-fluid">
+        <a class="my_logo" href="index.html">
+          <img src="assets/images/clicknshop.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <div class="main-drop">
+              <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu 1 <i class="fa fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu my-dropdown m-0 ">
+                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+              </ul>
+            </div>
+            <div class="main-drop">
+              <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu 2 <i class="fa fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu my-dropdown m-0 ">
+                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+              </ul>
+            </div>
+            <div class="main-drop">
+              <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu 3 <i class="fa fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu my-dropdown m-0 ">
+                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+              </ul>
+            </div>
+            <div class="main-drop">
+              <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu 4<i class="fa fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu my-dropdown m-0 ">
+                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+              </ul>
+            </div>
+          </ul>
+          <div class="profile">
+            <div class="">
+              <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="assets/images/profile.svg" alt="">
+              </a>
+              <ul class="dropdown-menu profile-drop m-0" style="left:-40px;">
+                <li><a class="dropdown-item" href="profile.html"> <i class="fa fa-user"></i> &nbsp; Profile</a></li>
+                <li><a class="dropdown-item" href="change-password.html"> <i class="fa fa-gear"></i> &nbsp; Change Password</a></li>
+                <li><a class="dropdown-item" href="insert-item.html"> <i class="fa fa-calendar"></i> &nbsp; Add Item</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<section class="grocery-more mt-3">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 sticky-top">
+          <div class="filter-box">
+            <div class="filter-item">
+                <ul class="p-0 m-0 d-flex justify-content-between filter-pad">
+                  <li class="fw-bold">Filter</li>
+                  <li class="text-primary">Clear</li>
+                </ul>
+                <div class="filter-keywords filter-pad">
+                  <span><i class="fa fa-xmark"> </i> Baba</span>
+                  <span><i class="fa fa-xmark"> </i> 50% or more</span>
+                </div>
+                <hr class="w-100 m-0 p-0">
+
+                <!-- brands filter -->
+
+                <div class="brands filter-pad">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Brands</button></h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <form action="">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="Baba" value="Baba">
+                              <label class="form-check-label" for="Baba">Baba</label>
+                            </div> <br>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="Fortune" value="Fortune">
+                              <label class="form-check-label" for="Fortune">Fortune</label>
+                            </div> <br>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="Ghani" value="Ghani">
+                              <label class="form-check-label" for="Ghani">Ghani</label>
+                            </div> <br>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="Super" value="Super">
+                              <label class="form-check-label" for="Super">Super</label>
+                            </div> <br>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="Aashirwad" value="Aashirwad">
+                              <label class="form-check-label" for="Aashirwad">Aashirwad</label>
+                            </div>  
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="m-0">
+
+                <!--Discount filter -->
+
+                <div class="discount filter-pad">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseDiscount" aria-expanded="true" aria-controls="collapseDiscount">Discount</button></h2>
+                      <div id="collapseDiscount" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#collapseDiscount">
+                        <div class="accordion-body">
+                          <form action="">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="Discount-1" value="50% or more">
+                              <label class="form-check-label" for="Discount-1">50% or more</label>
+                            </div> <br>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="Discount-2" value="40% or more">
+                              <label class="form-check-label" for="Discount-2">40% or more</label>
+                            </div>  <br>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="Discount-3" value="70% or more">
+                              <label class="form-check-label" for="Discount-3">70% or more</label>
+                            </div>  
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                  <hr class="m-0">
+
+                  <!-- Ratings -->
+
+                  <div class="ratings filter-pad">
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseRating" aria-expanded="true" aria-controls="collapseRating">Customer Ratings</button></h2>
+                        <div id="collapseRating" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                          data-bs-parent="#collapseRating">
+                          <div class="accordion-body">
+                            <form action="">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="rating-1" value="3★ & above">
+                                <label class="form-check-label" for="rating-1">3 ★ & above</label>
+                              </div> <br>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input shadow-none rounded-0" type="checkbox" name="inlineRadioOptions" id="rating-2" value="4 ★ & above">
+                                <label class="form-check-label" for="rating-2">4 ★ & above</label>
+                              </div> 
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+            </div>
+          </div>
+        </div>
+
+<!-- Items -->
+
+        <div class="col-md-9">
+          <div class="more-grocery">
+          <div class="row g-3">
+            <div class="col-md-3">
+              <div class="more-grcoery-item">
+                <a href="">
+                  <div class="text-center">
+                    <img src="assets/images/product-1.webp" alt="">
+                   </div>
+                    <h6 class="text-dark">Corn Flakes with Nutrients</h6>
+                    <div class="all-grocery-prizes">
+                      <span><ins>₹24</ins></span>
+                      <span><del>₹36</del></span>
+                      <span>₹80 % Off</span>
+                    </div>
+                    <div class="quantity-order">
+                      <span><input type="number" value="1" class="w-50"></span>
+                      <span><button class="">Buy</button></span>
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="more-grcoery-item">
+                <a href="">
+                  <div class="text-center">
+                    <img src="assets/images/product-2.jpg" alt="">
+                   </div>
+                    <h6 class="text-dark">Real Gold Tea</h6>
+                    <div class="all-grocery-prizes">
+                      <span><ins>₹150</ins></span>
+                      <span><del>₹200</del></span>
+                      <span>₹25 % Off</span>
+                    </div>
+                    <div class="quantity-order">
+                      <span><input type="number" value="1" class="w-50"></span>
+                      <span><button class="">Buy</button></span>
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="more-grcoery-item">
+                <a href="">
+                  <div class="text-center">
+                    <img src="assets/images/product-3.jpg" alt="">
+                   </div>
+                    <h6 class="text-dark">Corn Flakes with Nutrients</h6>
+                    <div class="all-grocery-prizes">
+                      <span><ins>₹24</ins></span>
+                      <span><del>₹36</del></span>
+                      <span>₹80 % Off</span>
+                    </div>
+                    <div class="quantity-order">
+                      <span><input type="number" value="1" class="w-50"></span>
+                      <span><button class="">Buy</button></span>
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="more-grcoery-item">
+                <a href="">
+                  <div class="text-center">
+                    <img src="assets/images/product-4.jpeg" alt="">
+                   </div>
+                    <h6 class="text-dark">Ginger Garlic Paste</h6>
+                    <div class="all-grocery-prizes">
+                      <span><ins>₹59</ins></span>
+                      <span><del>₹79</del></span>
+                      <span>₹20 % Off</span>
+                    </div>
+                    <div class="quantity-order">
+                      <span><input type="number" value="1" class="w-50"></span>
+                      <span><button class="">Buy</button></span>
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="more-grcoery-item">
+                <a href="">
+                  <div class="text-center">
+                    <img src="assets/images/product-5.webp" alt="">
+                   </div>
+                    <h6 class="text-dark">Lays Chips</h6>
+                    <div class="all-grocery-prizes">
+                      <span><ins>₹20</ins></span>
+                      <span><del>₹30</del></span>
+                      <span>₹40 % Off</span>
+                    </div>
+                    <div class="quantity-order">
+                      <span><input type="number" value="1" class="w-50"></span>
+                      <span><button class="">Buy</button></span>
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="more-grcoery-item">
+                <a href="">
+                  <div class="text-center">
+                    <img src="assets/images/product-6.jpg" alt="">
+                   </div>
+                    <h6 class="text-dark">Dettol</h6>
+                    <div class="all-grocery-prizes">
+                      <span><ins>₹79</ins></span>
+                      <span><del>₹99</del></span>
+                      <span>₹25 % Off</span>
+                    </div>
+                    <div class="quantity-order">
+                      <span><input type="number" value="1" class="w-50"></span>
+                      <span><button class="">Buy</button></span>
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="more-grcoery-item">
+                <a href="">
+                  <div class="text-center">
+                    <img src="assets/images/product-7.jpg" alt="">
+                   </div>
+                    <h6 class="text-dark">Dettol</h6>
+                    <div class="all-grocery-prizes">
+                      <span><ins>₹79</ins></span>
+                      <span><del>₹99</del></span>
+                      <span>₹25 % Off</span>
+                    </div>
+                    <div class="quantity-order">
+                      <span><input type="number" value="1" class="w-50"></span>
+                      <span><button class="">Buy</button></span>
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="more-grcoery-item">
+                <a href="">
+                  <div class="text-center">
+                    <img src="assets/images/product-8.png" alt="">
+                   </div>
+                    <h6 class="text-dark">Maggi</h6>
+                    <div class="all-grocery-prizes">
+                      <span><ins>₹45</ins></span>
+                      <span><del>₹60</del></span>
+                      <span>₹25 % Off</span>
+                    </div>
+                    <div class="quantity-order">
+                      <span><input type="number" value="1" class="w-50"></span>
+                      <span><button class="">Buy</button></span>
+                    </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="assets/js/css.js"></script>
+
+</body>
+
+</html>
+
+

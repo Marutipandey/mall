@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Clickncash Mall</title>
+    <style>
+      .swiper-button-next:after, .swiper-button-prev:after {
+        font-family: swiper-icons !important;
+        font-size: 18px !important;
+        color: #fff !important;
+        background: #000 !important;
+        padding: 9px !important;
+        margin-left: 19px !important;
+        }
+      
+
+      </style>
+</head>
+
+<body>
+
+    <div class="shadow-sm bg-white">
+        <nav class="navbar navbar-expand-lg justify-content-between">
+            <div class="container-fluid">
+                <a class="my_logo" href="index.html">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                    <ul class="navbar-nav ">
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 1 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 2 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 3 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 4<i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <div class="profile">
+                        <div class="">
+                            <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/images/profile.svg" alt="">
+                            </a>
+                            <ul class="dropdown-menu profile-drop m-0 ">
+                                <li><a class="dropdown-item" href=""> <i class="fa fa-user"></i> &nbsp; Profile</a></li>
+                                <li><a class="dropdown-item" href=""> <i class="fa fa-gear"></i> &nbsp; Change Password</a></li>
+                                <li><a class="dropdown-item" href=""> <i class="fa fa-calendar"></i> &nbsp; Insert Item</a></li>
+                                <li><a class="dropdown-item" href=""> <i class="fa-solid fa-bag-shopping"></i> &nbsp; Order</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="home-page-section-1">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-1-item">
+                    <img src="assets/images/logo.png" class="shadow" alt="">
+                    <h2>India's Biggest Multi Recharge Platform.</h2>
+                    <p>We are provide India's largest multi recharge platform. We are work international Prepaid & Dth Recharge, Postpaid payments, Electricity bill payments, Gas & insurance payments.</p>
+                    <button class="first-btn mt-3"> Download ATM Bank App <i class="fa-brands fa-google-play"></i></button>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="assets/images/bill.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+   <section class="first-service-section">
+    <h4 class="services-heading">Grocery</h4>
+    <div  class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+             <div class="box">
+              <a href="">
+                <div class="first-service-section-item text-center">
+                  <img src="assets/images/groceries.png" alt="">
+                    <h5>Red Chilli </h5>
+                </div>
+               </a>
+             </div>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Sault</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Cumin</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Coriander</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Dates</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Garlic</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Onion</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Lemon</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Cloves</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/groceries.png" alt="">
+                <h5>Mint</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="first-service-section-item text-center">
+                <img src="assets/images/add-button.png" alt="">
+                <h5>More</h5>
+            </div>
+        </a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+   </section>
+
+
+   <section class="second-service-section">
+    <h4 class="services-heading">Recharges</h4>
+    <div  class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="mobile-recharge-prepaid.html">
+              <div class="second-service-section-item text-center">
+                <img src="assets/images/payment.png" alt="">
+                  <h5>Recharge (Prepaid)</h5>
+              </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="mobile-recharge-postpaid.html">
+            <div class="second-service-section-item text-center">
+                <img src="assets/images/payment.png" alt="">
+                <h5>Recharge (Postpaid)</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="dth-recharge.html">
+            <div class="second-service-section-item text-center">
+                <img src="assets/images/dish.png" alt="">
+                <h5>DTH Recharge</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="electricity-bill.html">
+            <div class="second-service-section-item text-center">
+                <img src="assets/images/electricity-bill.png" alt="">
+                <h5>Electricity Bill</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="gas-bill.html">
+            <div class="second-service-section-item text-center">
+                <img src="assets/images/gas.png" alt="">
+                <h5>Gas</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="water-bill.html">
+            <div class="second-service-section-item text-center">
+                <img src="assets/images/water-bill.png" alt="">
+                <h5>Water</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="send-money.html">
+            <div class="second-service-section-item text-center">
+                <img src="assets/images/send-money.png" alt="">
+                <h5>Send Money</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="add-money.html">
+            <div class="second-service-section-item text-center">
+                <img src="assets/images/add-money.png" alt="">
+                <h5>Add Money</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="second-service-section-item text-center">
+                <img src="assets/images/add-button.png" alt="">
+                <h5>More</h5>
+            </div>
+        </a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+   </section>
+
+
+
+   <section class="third-service-section">
+    <h4 class="services-heading">Another Utilities</h4>
+    <div  class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+              <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/utilities.png" alt="">
+                <h5>Utilities</h5>
+            </div>
+        </a>
+          </div>
+        <div class="swiper-slide">
+              <a href="">
+            <div class="third-service-section-item text-center">
+                <img src="assets/images/add-button.png" alt="">
+                <h5>More</h5>
+            </div>
+        </a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+   </section>
+
+
+   <section class="home-page-section-2">
+       <div class="section-2-box">
+           <div class="row">
+        <div class="col-md-6"  style="display: flex; align-items: center;">
+            <div class="section-2-item">
+                <h2>Best Payment Portal </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat, nulla corporis earum saepe nobis. Lorem ipsum dolor sit amet. </p>
+                <button class="first-btn mt-3"> Download ATM Bank App <i class="fa-brands fa-google-play"></i></button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="assets/images/payment-portal.png" alt="">
+        </div>
+    </div>
+       </div>
+</section>
+
+
+<section class="home-page-section-3">
+    <div class="section-3-box">
+    <div class="row">
+        <div class="col-md-6"  style="display: flex; align-items: center;">
+            <div class="section-3-item">
+                <h2>Pay Direct From Your Bank</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat, nulla corporis earum saepe nobis. Lorem ipsum dolor sit amet. </p>
+                <button class="first-btn mt-3"> Download ATM Bank App <i class="fa-brands fa-google-play"></i></button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="assets/images/online-payment.png" alt="">
+        </div>
+    </div>
+       </div>
+</section>
+
+
+<section class="home-page-section-4">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="section-4-box">
+            <div class="section-4-item">
+                <h2>Credit Cards</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat, nulla corporis earum saepe nobis. Lorem ipsum dolor sit amet. </p>
+                <img src="assets/images/credit-card.jpg" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="section-4-box">
+            <div class="section-4-item">
+                <h2>Cashback And Vouchers</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat, nulla corporis earum saepe nobis. Lorem ipsum dolor sit amet. </p>
+                <img src="assets/images/cashback.png" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="home-page-section-5">
+    <div class="section-5-box">
+    <div class="row ">
+        <div class="col-md-6" style="display: flex; align-items: center;">
+            <div class="section-5-item">
+                <h2>Easily Insurance</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat, nulla corporis earum saepe nobis. Lorem ipsum dolor sit amet. </p>
+                <button class="first-btn mt-3"> Download ATM Bank App <i class="fa-brands fa-google-play"></i></button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="assets/images/insurance.png" class="img-fluid" alt="">
+        </div>
+
+    </div>
+       </div>
+</section>
+
+
+<section class="accordian-section">
+   <div class="acoordian-section-box">
+    <h5 class="related">Realted Queries</h5>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What is Payment Portal?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat earum et autem aspernatur dolorum cumque reprehenderit laudantium, expedita sint excepturi exercitationem placeat deserunt aperiam quo tempora praesentium dicta dolorem deleniti incidunt atque saepe adipisci error. Sed non fugiat ut.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What is Credit Card Payment?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vitae voluptate quis mollitia rerum sapiente tempore adipisci aut dolorum illum similique aliquid voluptas quam earum, laborum esse fugit ex beatae? Blanditiis consequuntur voluptatum iure mollitia qui quas tempore, nostrum autem ipsam, repudiandae accusamus est nobis.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What is Payment Bank?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ad eum fugiat quasi hic dolores ducimus maiores natus quis doloribus modi laboriosam perspiciatis, velit, voluptatibus, beatae ea omnis reiciendis soluta?
+
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+</section>
+
+
+<section class="home-page-section-6">
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="section-6-box">
+            <div class="section-6-item">
+                <img src="assets/images/24-hours.png" alt="">
+                <h2>24*7 Help</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat, nulla corporis earum saepe nobis. Lorem ipsum dolor sit amet. </p>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="section-6-box">
+            <div class="section-6-item">
+                <img src="assets/images/lock.png" alt="">
+                <h2>100% Secure</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat, nulla corporis earum saepe nobis. Lorem ipsum dolor sit amet. </p>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="section-6-box">
+            <div class="section-6-item">
+                <img src="assets/images/secure.png" alt="">
+                <h2>Trusted</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugiat, nulla corporis earum saepe nobis. Lorem ipsum dolor sit amet. </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer-section shadow-sm">
+    <div class="row ">
+        <div class="col-md-6">
+            <div class="app-images">
+                <span class="fw-bold fs-4">Download App</span>
+                <span><img src="assets/images/play-store.png" alt=""></span>
+                <span><img src="assets/images/app-store.png" alt=""></span>
+            </div>
+        </div>
+        <div class="col-md-6 text-end">
+            <div class="socials">
+                <span><a href=""><i class="fa-brands fa-facebook-f"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-twitter"></i></a></span>
+                <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="text-center m-0">&copy; Clickncash Mall </p>
+</section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="assets/js/css.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 8,
+        //   centeredSlides: true,
+          spaceBetween: 30,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            // prevEl: ".swiper-button-prev",
+          },
+          breakpoints: {
+                340: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                650: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+
+                1024: {
+                    slidesPerView: 7,
+                    spaceBetween: 50,
+                },
+            },
+        });
+      </script>
+</body>
+
+</html>
+
+
+

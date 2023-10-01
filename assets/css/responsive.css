@@ -1,0 +1,75 @@
+
+@media (max-width:772px) {
+    img{
+        width: 100%;
+    }
+    .section-6-item img{
+        width: 70px;
+    }
+    .app-images {
+        flex-direction: column;
+    }
+    .acoordian-section-box {
+        padding: 20px !important;
+    }
+    .profile {
+        margin-left: 30px !important;
+    }
+    .profile img{
+        width:40px;
+    }
+    .nav-main-head {
+        line-height: 51px;
+    }
+    .section-4-item h2  , .section-3-item h2  , .section-5-item h2 , .section-2-item h2 , .section-1-item h2{
+
+        font-size: 26px !important;
+    }
+    .socials {
+        justify-content: center !important;
+    }
+    .socials i {
+        margin: 10px 10px !important;
+    }
+    .home-page-section-3 , .home-page-section-2 , .home-page-section-4 , .home-page-section-5 , .accordian-section , .home-page-section-6 {       
+        padding: 10px 10px 30px 10px !important;
+    }
+    .switch-images {
+        flex-direction: row;
+    }
+    .click-img {
+        width: 100%;
+    }
+    .more-item img{
+        width: 30px;
+    }
+    .recharges-footer ul {
+        flex-direction: column;
+    }
+     
+    .more-item h4 {
+        font-size: 12px !important;
+    }
+    .popup-content {
+        width: 100% !important;
+    }
+    .res{
+        left: 0 !important;
+    }
+    .image-view img {
+        height: 100% !important;
+    }
+    .pro-bg {
+        background-image: url(../images/pro-bg-1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100% !important;
+        width: 100%;
+        padding: 20px;
+        color: #fff;
+    }
+    .dating img {
+        width: 100% !important;
+    }
+}

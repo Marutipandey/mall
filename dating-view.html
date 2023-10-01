@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Clickncash Mall</title>
+    <style>
+        .mySlides {display:none;}
+
+        .profile-detail h6{
+            line-height: 30px;
+        }
+        </style>
+</head>
+
+<body style="background-color: #f7f5f5">
+
+    <div class="shadow-sm bg-white">
+        <nav class="navbar navbar-expand-lg justify-content-between">
+            <div class="container-fluid">
+                 <a class="my_logo" href="index.html">
+                     <img src="assets/images/clicknshop.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                    <ul class="navbar-nav ">
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 1 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 2 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 3 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 4 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <div class="profile">
+                        <div class="">
+                            <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/images/profile.svg" alt="">
+                            </a>
+                            <ul class="dropdown-menu profile-drop m-0" style="left:-40px;">
+                                <li><a class="dropdown-item" href="dating-view.html"> <i class="fa fa-user"></i> &nbsp; Profile</a></li>
+                                <li><a class="dropdown-item" href="matches.html"> <i class="fa fa-gear"></i> &nbsp; Matches</a></li>
+                                <li><a class="dropdown-item" href="dating-profile-edit.html"> <i class="fa fa-calendar"></i> &nbsp; Edit Profile</a></li>                         
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+  
+    <section class="property-detail  mb-5 pro-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="dating">
+                        <div class="w3-content w3-display-container">
+                            <img class="mySlides rounded-2" src="assets/images/date-3.jpeg">
+                            <img class="mySlides rounded-2" src="assets/images/date-4.webp" >
+                            <img class="mySlides rounded-2" src="assets/images/dating-2.jpg" >
+                          
+                            <button class="btn rounded-0 btn-dark w3-display-left img-btn1" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="btn rounded-0 btn-dark w3-display-right float-end img-btn2" onclick="plusDivs(1)">&#10095;</button>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-detail">
+                        <h4 class=" fw-bold">Gaurav Kumar</h4>
+                         <h6>25 Years old</h6>       
+                         <h6>PHP Developer</h6>
+                         <h6>Noida</h6>
+                         <h6>Single</h6>
+                         <i class="fa fa-heart text-danger"></i>
+                         <i class="fa fa-xmark text-dark"></i>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-box">
+                        <h5 class="fw-bold" style="color:#25316D">About</h5>
+                        <hr class="">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt saepe veniam illo, fuga consectetur sit dolorum esse consequatur quod cupiditate?</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-box">
+                        <h5 class="fw-bold" style="color: #25316D">More Information</h5>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6 left-b">
+                                <ul class="p-0 d-flex justify-content-between "> 
+                                    <li>Education</li>
+                                    <li class="fw-bold">Master</li>
+                                </ul>
+                                <ul class="p-0 d-flex justify-content-between">
+                                    <li>Status</li>
+                                    <li class="fw-bold">Single</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="p-0 d-flex justify-content-between">
+                                    <li>Occupation</li>
+                                    <li class="fw-bold">Developer</li>
+                                </ul>
+                                <ul class="p-0 d-flex justify-content-between">
+                                    <li>Living</li>
+                                    <li class="fw-bold">Noida</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="shadow-sm bg-white mt-5">
+    <div class="container">
+        <div class="row">
+            <divl class="col-md-12">
+                <div class="recharges-footer">
+                    <ul>
+                        <li><a href=""> About Us</li></a>
+                        <li><a href=""> Privacy Policy</li></a>
+                        <li><a href=""> Terms & Condition</li></a>
+                        <li><a href=""> Refund Policy</li></a>
+                       <li><a href="contact.html"> Contact Us</li></a>
+                    </ul>
+                </div>
+            </divl>
+        </div>
+    </div>
+</section>
+
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="assets/js/css.js"></script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+</body>
+
+</html>
+
+
+

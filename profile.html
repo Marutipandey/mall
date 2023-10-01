@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Clickncash Mall</title>
+    <style>
+        .form-select{
+        border-bottom: 1px solid #3939395c !important;
+        padding: 14px 0px 5px !important;
+        position: relative ;
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 0;
+        color: #848484 !important;
+        }
+
+        .form-select option{
+        font-size: 20px !important;
+        padding: 20px !important;
+        border-bottom: 1px solid #d1d0d0 !important;
+        background-color: #f5f5f5;
+        font-family: tondobold !important;
+        color: #848484 !important;
+        }
+        .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        }
+
+.btn {
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.upload-btn-wrapper img{
+    width: 77px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="shadow-sm bg-white">
+        <nav class="navbar navbar-expand-lg justify-content-between">
+            <div class="container-fluid">
+                 <a class="my_logo" href="index.html">
+                     <img src="assets/images/clicknshop.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                    <ul class="navbar-nav ">
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 1 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 2 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 3 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-drop">
+                            <a class="nav-main-head" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu 4 <i class="fa fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu my-dropdown m-0 ">
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Customer</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness Provider</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                                <li><a class="dropdown-item fw-bold" href="">Bussiness</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <div class="profile">
+                        <div class="">
+                            <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/images/profile.svg" alt="">
+                            </a>
+                            <ul class="dropdown-menu profile-drop m-0" style="left:-40px;">
+                                <li><a class="dropdown-item" href="profile.html"> <i class="fa fa-user"></i> &nbsp; Profile</a></li>
+                                <li><a class="dropdown-item" href="change-password.html"> <i class="fa fa-gear"></i> &nbsp; Change Password</a></li>
+                                <li><a class="dropdown-item" href="insert-item.html"> <i class="fa fa-calendar"></i> &nbsp; Add Item</a></li>
+                                <li><a class="dropdown-item" href="properties.html"> <i class="fa fa-building"></i> &nbsp; Add Properties</a></li>
+                                <li><a class="dropdown-item" href="#"> <i class="fa-solid fa-bag-shopping"></i> &nbsp; Order</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+<section class="mobile-recharge">
+    <div class="row g-3 justify-content-center">
+        <div class="col-md-8">
+            <div class="mobile-recharge-box">
+            <div class="mobile-recharge-item">
+                <h4 class="mb-4">My Profile</h4>
+              <form action="">
+               <div class="input-feilds mt-3">
+               <div class="row">
+                <div class="upload-btn text-center">
+                    <div class="upload-btn-wrapper">
+                        <button class="btn"><img src="assets/images/upload-img.png" alt=""></button>
+                        <input type="file" name="myfile" />
+                      </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control shadow-none" id="floatingInput" placeholder="First Name">
+                            <label for="floatingInput">First Name</label>
+                          </div>
+                      </div>
+                   </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control shadow-none" id="floatingInput" placeholder="Last Name">
+                            <label for="floatingInput">Last Name</label>
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control shadow-none" id="floatingInput" placeholder="Mobile Number">
+                            <label for="floatingInput">Mobile Number</label>
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="text" id="" name="" class="form-control shadow-none" placeholder="Email">
+                            <label for="">Email</label>
+                        </div>
+                    </div>
+                 
+               </div>
+
+                <div class="text-center mt-3">
+                  <button class="recharge-btn ">Update Profile</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<div>
+    <section class="shadow-sm">
+        <div class="container">
+            <div class="row">
+                <divl class="col-md-12">
+                    <div class="recharges-footer" >
+                        <ul>
+                            <li><a href=""> About Us</li></a>
+                            <li><a href=""> Privacy Policy</li></a>
+                            <li><a href=""> Terms & Condition</li></a>
+                            <li><a href=""> Refund Policy</li></a>
+                           <li><a href="contact.html"> Contact Us</li></a>
+                        </ul>
+                    </div>
+                </divl>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="assets/js/css.js"></script>
+</body>
+</html>
+
+
+
